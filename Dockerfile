@@ -6,6 +6,8 @@ RUN \
   apt-get upgrade -y && \
   apt-get install -y \
     build-essential \
+    dnsutils \
+    tcptraceroute \
     vim \
     git \
     wget \
